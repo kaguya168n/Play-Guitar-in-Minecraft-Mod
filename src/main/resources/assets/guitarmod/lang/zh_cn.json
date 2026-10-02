@@ -1,0 +1,16 @@
+{
+  "item.guitarmod.guitar": "电吉他",
+  "key.categories.guitarmod": "吉他模组",
+  "key.guitarmod.audio_settings": "打开吉他音频设置",
+  "screen.guitarmod.audio_settings": "吉他音频设置",
+  "screen.guitarmod.effect_chain": "效果器链",
+  "screen.guitarmod.add_effect": "添加效果",
+  "screen.guitarmod.device": "输入设备：%s",
+  "screen.guitarmod.default_device": "系统默认",
+  "screen.guitarmod.start_capture": "开始采集测试",
+  "screen.guitarmod.stop_capture": "停止采集",
+  "screen.guitarmod.threshold": "动画触发阈值：%s",
+  "screen.guitarmod.status_running": "正在采集：%s",
+  "screen.guitarmod.status_stopped": "采集已停止。手持吉他自动开始。",
+  "screen.guitarmod.status_error": "错误：%s"
+}

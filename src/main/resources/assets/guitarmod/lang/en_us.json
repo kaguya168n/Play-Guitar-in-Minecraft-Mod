@@ -1,0 +1,16 @@
+{
+  "item.guitarmod.guitar": "Electric Guitar",
+  "key.categories.guitarmod": "Guitar Mod",
+  "key.guitarmod.audio_settings": "Open Guitar Audio Settings",
+  "screen.guitarmod.audio_settings": "Guitar Audio Settings",
+  "screen.guitarmod.effect_chain": "Effect Chain",
+  "screen.guitarmod.add_effect": "Add Effect",
+  "screen.guitarmod.device": "Input: %s",
+  "screen.guitarmod.default_device": "System Default",
+  "screen.guitarmod.start_capture": "Start Capture Test",
+  "screen.guitarmod.stop_capture": "Stop Capture",
+  "screen.guitarmod.threshold": "Animation threshold: %s",
+  "screen.guitarmod.status_running": "Capturing from: %s",
+  "screen.guitarmod.status_stopped": "Capture stopped. Hold the guitar to start automatically.",
+  "screen.guitarmod.status_error": "Error: %s"
+}

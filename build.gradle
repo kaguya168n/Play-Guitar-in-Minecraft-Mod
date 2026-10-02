@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.143'
+}
+
+group = 'com.example.guitarmod'
+version = '1.0.0'
+
+repositories {
+    // playerAnimator (KosmX) — compileOnly，运行时可选
+    maven { url = 'https://maven.kosmx.dev/' }
+}
+
+neoForge {
+    version = '21.1.248'
+    runs {
+        client { client() }
+        server { server() }
+    }
+    mods {
+        guitarmod {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    compileOnly 'dev.kosmx.player-anim:player-animation-lib-forge:2.0.4+1.21.1'
+}
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }
+}
